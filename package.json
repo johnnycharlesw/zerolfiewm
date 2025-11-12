@@ -1,0 +1,23 @@
+{
+  "name": "zerolfiewm",
+  "version": "1.0.0",
+  "description": "ZerolfieWM - The window manager of ZerolfieOS",
+  "homepage": "https://github.com/johnnycharlesw/zerolfiewm#readme",
+  "bugs": {
+    "url": "https://github.com/johnnycharlesw/zerolfiewm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycharlesw/zerolfiewm.git"
+  },
+  "license": "ISC",
+  "author": "John Charles Woods",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sass": "^1.94.0"
+  }
+}
