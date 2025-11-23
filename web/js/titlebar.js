@@ -4,13 +4,13 @@ window.onload = (e)=>{
     let titlebar=document.getElementById("titlebar");
 
     // Initialize the titlebar
-    titlebar.children.namedItem("close").addEventListener("click", function(){
+    titlebar.querySelector("button#close").addEventListener("click", function(){
         pywebview.api.closeWindow();
     });
-    titlebar.children.namedItem("minimize").addEventListener("click", function(){
+    titlebar.querySelector("button#minimize").addEventListener("click", function(){
         pywebview.api.minimizeWindow();
     });
-    titlebar.children.namedItem("maximize").addEventListener("click", function(){
+    titlebar.querySelector("button#maximize").addEventListener("click", function(){
         pywebview.api.maximizeWindow();
     });
 }
